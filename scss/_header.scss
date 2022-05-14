@@ -3,7 +3,13 @@ $font:'Montserrat', sans-serif;
 header{
 background-color: #000;
 height: 713px;
-.row{
+.cabeza{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    margin-top: 50px;
     padding-top: 100px;
     height: 800px;
     background-image: url(../icons/background-hero.jpg);
@@ -50,17 +56,4 @@ p{
 }
 }
 
-}
-header.about{
-     background-image: url(../icons/bg-about.jpg);   
-.title{
-    padding-top: 300px;
-    text-align: end;
-    padding-right: 100px;
-    font-family: $font;
-    h1{
-    font-size: 80px;    
-    }
-    
-}
 }
