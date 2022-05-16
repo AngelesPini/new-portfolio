@@ -1,110 +1,132 @@
 header {
   background-color: #000;
-  height: 713px; }
-  header .cabeza {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 10px;
-    grid-row-gap: 0px;
-    margin-top: 50px;
-    padding-top: 100px;
-    height: 800px;
-    background-image: url(../icons/background-hero.jpg); }
-  header .foto img {
-    margin-left: 50px; }
-  header .texto {
-    padding-right: 150px;
-    animation: lightSpeedInRight;
-    animation-duration: 1s; }
-    header .texto h1 {
-      margin-top: 100px;
-      text-align: end;
-      font-family: "Montserrat", sans-serif;
-      font-size: 60px;
-      color: #fff;
-      font-weight: 600; }
-    header .texto h4 {
-      text-align: end;
-      font-family: "Montserrat", sans-serif;
-      font-size: 30px;
-      color: #fff; }
-    header .texto h5 {
-      text-align: end;
-      font-family: "Montserrat", sans-serif;
-      color: #fff; }
-    header .texto p {
-      text-align: end;
-      font-family: "Montserrat", sans-serif;
-      font-size: 20px;
-      color: #fff;
-      font-weight: 200; }
+  height: 713px;
+}
+header .cabeza {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 0px;
+  margin-top: 50px;
+  padding-top: 100px;
+  height: 800px;
+  background-image: url(../icons/background-hero.jpg);
+}
+header .foto img {
+  margin-left: 50px;
+}
+header .texto {
+  padding-right: 150px;
+  animation: lightSpeedInRight;
+  animation-duration: 1s;
+}
+header .texto h1 {
+  margin-top: 100px;
+  text-align: end;
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  color: #fff;
+  font-weight: 600;
+}
+header .texto h4 {
+  text-align: end;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: #fff;
+}
+header .texto h5 {
+  text-align: end;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+header .texto p {
+  text-align: end;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 200;
+}
 
 nav .container-fluid {
-  background-color: #000; }
+  background-color: #000;
+}
 
 nav span .navbar-toggler-icon {
-  color: #fff; }
+  color: #fff;
+}
 
 nav .logo {
   width: 50px;
   height: 50px;
-  margin-left: 50px; }
+  margin-left: 50px;
+}
 
 nav form {
-  margin-top: 50px; }
-  nav form input {
-    margin: 10px 0px 10px 0px; }
+  margin-top: 50px;
+}
+nav form input {
+  margin: 10px 0px 10px 0px;
+}
 
 main section.one {
   display: flex;
   align-items: baseline;
   padding-left: none;
-  margin-left: 20px; }
-  main section.one .parent {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 40px 10px 40px 10px; }
-    main section.one .parent button.btn.btn-primary {
-      background-color: transparent;
-      border: none;
-      width: 300px;
-      height: 300px;
-      margin-top: 50px;
-      font-size: 50px;
-      font-family: "Montserrat", sans-serif;
-      margin-left: 80px; }
-  main section.one .about div {
-    text-align: center; }
-    main section.one .about div p {
-      font-size: 30px;
-      padding: 40px 10px 10px 10px; }
-  main section.one .first img {
-    margin-left: 50px;
-    margin-right: auto;
-    margin-top: -50px; }
-  main section.one .carrusel .carousel {
-    min-width: 450px;
-    min-height: 400px;
-    border-radius: 30px;
-    margin-right: 10px; }
-    main section.one .carrusel .carousel .texto {
-      background-color: #FFDAC1;
-      font-family: "Montserrat", sans-serif;
-      text-align: center;
-      margin-top: 100px;
-      padding-right: 50px;
-      padding-left: 50px;
-      min-width: 450px;
-      height: 400px; }
-      main section.one .carrusel .carousel .texto h2 {
-        margin-top: 100px; }
+  margin-left: 20px;
+}
+main section.one .parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 10px 40px 10px;
+}
+main section.one .parent button.btn.btn-primary {
+  background-color: transparent;
+  border: none;
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 80px;
+}
+main section.one .about div {
+  text-align: center;
+}
+main section.one .about div p {
+  font-size: 30px;
+  padding: 40px 10px 10px 10px;
+}
+main section.one .first img {
+  margin-left: 50px;
+  margin-right: auto;
+  margin-top: -50px;
+}
+main section.one .carrusel .carousel {
+  min-width: 450px;
+  min-height: 400px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+main section.one .carrusel .carousel .texto {
+  background-color: #ffdac1;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  padding-right: 50px;
+  padding-left: 50px;
+  min-width: 450px;
+  height: 400px;
+}
+main section.one .carrusel .carousel .texto h2 {
+  margin-top: 100px;
+}
 
 main section.three .content {
   display: grid;
@@ -112,35 +134,42 @@ main section.three .content {
   grid-template-rows: 1fr;
   grid-column-gap: 10px;
   grid-row-gap: 0px;
-  margin-top: 50px; }
+  margin-top: 50px;
+}
 
 main section.three .page h5 {
   font-family: "Montserrat", sans-serif;
   font-size: 42px;
   font-weight: 700;
-  color: #fff; }
+  color: #fff;
+}
 
 main section.three .page p {
-  color: #fff; }
+  color: #fff;
+}
 
 main section.three .page a {
   color: #fff;
-  width: min-content; }
+  width: min-content;
+}
 
 main section.three .page a:hover {
-  background-color: #FFDAC1;
-  color: #000; }
+  background-color: #ffdac1;
+  color: #000;
+}
 
 main section.three .page .btn {
-  background-color: #B5EAD7;
+  background-color: #b5ead7;
   border: none;
   width: 200px;
   height: auto;
-  font-size: 20px; }
+  font-size: 20px;
+}
 
 main section.three .page .btn:hover {
   background: #59e9b4;
-  color: #000; }
+  color: #000;
+}
 
 main section.three .aysen .background {
   background-image: url(../icons/repos/aysen-page.jpg);
@@ -148,28 +177,32 @@ main section.three .aysen .background {
   height: 200px;
   background-attachment: fixed;
   background-size: contain;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+}
 
 main section.three .go .background {
   background-image: url(../icons/repos/go-page.jpg);
   width: 100%;
   height: 200px;
   background-attachment: fixed;
-  background-size: contain; }
+  background-size: contain;
+}
 
 main section.three .panda .background {
   background-image: url(../icons/repos/panda-page.jpg);
   width: 100%;
   height: 200px;
   background-attachment: fixed;
-  background-size: contain; }
+  background-size: contain;
+}
 
 main section.three .t-rex .background {
   background-image: url(../icons/repos/trex-page.jpg);
   width: 100%;
   height: 200px;
   background-attachment: fixed;
-  background-size: contain; }
+  background-size: contain;
+}
 
 main section.three .projets {
   display: grid;
@@ -177,209 +210,258 @@ main section.three .projets {
   grid-template-rows: 1fr;
   grid-column-gap: 10px;
   grid-row-gap: 0px;
-  margin-top: 50px; }
+  margin-top: 50px;
+}
 
 main section.three .flipa-page {
   margin-top: 100px;
-  margin-left: 20px; }
-  main section.three .flipa-page .background {
-    width: 100%;
-    height: 200px;
-    background-image: url(../icons/repos/flipa-page.jpg);
-    background-attachment: fixed;
-    background-size: contain;
-    background-repeat: no-repeat; }
-  main section.three .flipa-page h5 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 42px;
-    font-weight: 700;
-    color: #fff; }
-  main section.three .flipa-page p {
-    color: #fff; }
-  main section.three .flipa-page a {
-    color: #fff;
-    width: min-content; }
-  main section.three .flipa-page a:hover {
-    background: #59e9b4;
-    color: #000; }
-  main section.three .flipa-page .btn {
-    background-color: #FFDAC1;
-    border: none;
-    width: 200px;
-    height: auto;
-    font-size: 20px; }
-  main section.three .flipa-page .btn:hover {
-    background-color: #f7a36b;
-    color: #000; }
+  margin-left: 20px;
+}
+main section.three .flipa-page .background {
+  width: 100%;
+  height: 200px;
+  background-image: url(../icons/repos/flipa-page.jpg);
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+main section.three .flipa-page h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #fff;
+}
+main section.three .flipa-page p {
+  color: #fff;
+}
+main section.three .flipa-page a {
+  color: #fff;
+  width: min-content;
+}
+main section.three .flipa-page a:hover {
+  background: #59e9b4;
+  color: #000;
+}
+main section.three .flipa-page .btn {
+  background-color: #ffdac1;
+  border: none;
+  width: 200px;
+  height: auto;
+  font-size: 20px;
+}
+main section.three .flipa-page .btn:hover {
+  background-color: #f7a36b;
+  color: #000;
+}
 
 main section.three .porfolio {
-  margin-top: 100px; }
-  main section.three .porfolio .background {
-    width: 100%;
-    height: 200px;
-    background-image: url(../icons/repos/porfolio-one.jpg);
-    background-attachment: fixed;
-    background-size: contain; }
-  main section.three .porfolio h5 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 42px;
-    font-weight: 700;
-    color: #fff; }
-  main section.three .porfolio p {
-    color: #fff; }
-  main section.three .porfolio a {
-    color: #fff;
-    width: min-content; }
-  main section.three .porfolio a:hover {
-    background: #59e9b4;
-    color: #000; }
-  main section.three .porfolio .btn {
-    background-color: #FFDAC1;
-    border: none;
-    width: 200px;
-    height: auto;
-    font-size: 20px; }
-  main section.three .porfolio .btn:hover {
-    background-color: #f7a36b;
-    color: #000; }
+  margin-top: 100px;
+}
+main section.three .porfolio .background {
+  width: 100%;
+  height: 200px;
+  background-image: url(../icons/repos/porfolio-one.jpg);
+  background-attachment: fixed;
+  background-size: contain;
+}
+main section.three .porfolio h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #fff;
+}
+main section.three .porfolio p {
+  color: #fff;
+}
+main section.three .porfolio a {
+  color: #fff;
+  width: min-content;
+}
+main section.three .porfolio a:hover {
+  background: #59e9b4;
+  color: #000;
+}
+main section.three .porfolio .btn {
+  background-color: #ffdac1;
+  border: none;
+  width: 200px;
+  height: auto;
+  font-size: 20px;
+}
+main section.three .porfolio .btn:hover {
+  background-color: #f7a36b;
+  color: #000;
+}
 
 main section.three .js-page {
-  margin-top: 100px; }
-  main section.three .js-page .background {
-    width: 100%;
-    height: 200px;
-    background-image: url(../icons/repos/js-page.jpg);
-    background-attachment: fixed;
-    background-size: contain; }
-  main section.three .js-page h5 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 42px;
-    font-weight: 700;
-    color: #fff; }
-  main section.three .js-page p {
-    color: #fff; }
-  main section.three .js-page a {
-    color: #fff;
-    width: min-content; }
-  main section.three .js-page a:hover {
-    background: #59e9b4;
-    color: #000; }
-  main section.three .js-page .btn {
-    background-color: #FFDAC1;
-    border: none;
-    width: 200px;
-    height: auto;
-    font-size: 20px; }
-  main section.three .js-page .btn:hover {
-    background-color: #f7a36b;
-    color: #000; }
+  margin-top: 100px;
+}
+main section.three .js-page .background {
+  width: 100%;
+  height: 200px;
+  background-image: url(../icons/repos/js-page.jpg);
+  background-attachment: fixed;
+  background-size: contain;
+}
+main section.three .js-page h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  color: #fff;
+}
+main section.three .js-page p {
+  color: #fff;
+}
+main section.three .js-page a {
+  color: #fff;
+  width: min-content;
+}
+main section.three .js-page a:hover {
+  background: #59e9b4;
+  color: #000;
+}
+main section.three .js-page .btn {
+  background-color: #ffdac1;
+  border: none;
+  width: 200px;
+  height: auto;
+  font-size: 20px;
+}
+main section.three .js-page .btn:hover {
+  background-color: #f7a36b;
+  color: #000;
+}
 
 footer {
   font-family: "Montserrat", sans-serif;
-  padding-bottom: 20px; }
-  footer .footer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    margin-top: 100px;
-    color: #fff;
-    font-weight: 200; }
-  footer .logo {
-    width: 50px;
-    height: 50px;
-    margin-left: 50px;
-    margin-top: -10px; }
-  footer a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 600; }
-  footer a:hover {
-    color: #FF9AA2; }
-  footer .derechos {
-    margin-right: -50px; }
-  footer .redes {
-    margin-left: 180px;
-    margin-top: -10px; }
-    footer .redes img {
-      margin-right: 20px; }
+  padding-bottom: 20px;
+}
+footer .footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-top: 100px;
+  color: #fff;
+  font-weight: 200;
+}
+footer .logo {
+  width: 50px;
+  height: 50px;
+  margin-left: 50px;
+  margin-top: -10px;
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+footer a:hover {
+  color: #ff9aa2;
+}
+footer .derechos {
+  margin-right: -50px;
+}
+footer .redes {
+  margin-left: 180px;
+  margin-top: -10px;
+}
+footer .redes img {
+  margin-right: 20px;
+}
 
 @media screen and (max-width: 768px) {
   header {
     background-color: #000;
-    height: 713px; }
-    header .cabeza {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      grid-template-rows: 1fr;
-      grid-column-gap: 10px;
-      grid-row-gap: 0px;
-      margin-top: 50px;
-      padding-top: 100px;
-      height: 800px;
-      background-image: url(../icons/background-hero.jpg); }
-    header .foto img {
-      width: 100%;
-      margin-left: auto;
-      margin-right: auto; }
-    header .texto {
-      width: 100%;
-      padding-right: 10px;
-      margin-left: 15px; }
-      header .texto h1 {
-        margin-top: 100px;
-        text-align: start;
-        font-family: "Montserrat", sans-serif;
-        font-size: 40px;
-        color: #fff;
-        font-weight: 600;
-        width: 100%; }
-      header .texto h4 {
-        text-align: start;
-        font-family: "Montserrat", sans-serif;
-        font-size: 30px;
-        color: #fff;
-        width: 100%; }
-      header .texto h5 {
-        text-align: start;
-        font-family: "Montserrat", sans-serif;
-        color: #fff;
-        width: 100%; }
-      header .texto p {
-        text-align: start;
-        font-family: "Montserrat", sans-serif;
-        font-size: 20px;
-        color: #fff;
-        font-weight: 200;
-        width: 100%; }
+    height: 713px;
+  }
+  header .cabeza {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    margin-top: 50px;
+    padding-top: 100px;
+    height: 800px;
+    background-image: url(../icons/background-hero.jpg);
+  }
+  header .foto img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header .texto {
+    width: 100%;
+    padding-right: 10px;
+    margin-left: 15px;
+  }
+  header .texto h1 {
+    margin-top: 100px;
+    text-align: start;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+    width: 100%;
+  }
+  header .texto h4 {
+    text-align: start;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    color: #fff;
+    width: 100%;
+  }
+  header .texto h5 {
+    text-align: start;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    width: 100%;
+  }
+  header .texto p {
+    text-align: start;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 200;
+    width: 100%;
+  }
   main {
     padding-top: 100px;
-    margin-top: 50px; }
-    main section.one {
-      display: none; }
-    main section.three {
-      margin-top: 300px; }
-      main section.three .content {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: 1fr;
-        grid-column-gap: 10px;
-        grid-row-gap: 0px;
-        margin-top: 50px; }
-        main section.three .content .page {
-          margin-top: 20px;
-          margin-left: 20px; }
-      main section.three .projets {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: 1fr;
-        grid-column-gap: 10px;
-        grid-row-gap: 0px; }
-        main section.three .projets .porfolio {
-          margin-left: 20px; }
-        main section.three .projets .js-page {
-          margin-left: 20px; }
+    margin-top: 50px;
+  }
+  main section.one {
+    display: none;
+  }
+  main section.three {
+    margin-top: 300px;
+  }
+  main section.three .content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    margin-top: 50px;
+  }
+  main section.three .content .page {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  main section.three .projets {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+  }
+  main section.three .projets .porfolio {
+    margin-left: 20px;
+  }
+  main section.three .projets .js-page {
+    margin-left: 20px;
+  }
   footer .footer {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -388,31 +470,41 @@ footer {
     grid-row-gap: 0px;
     margin-top: 100px;
     color: #fff;
-    font-weight: 200; }
+    font-weight: 200;
+  }
   footer .logo {
     display: flex;
     justify-items: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px; }
+    margin-top: 10px;
+  }
   footer .derechos {
-    display: none; }
+    display: none;
+  }
   footer .redes {
     display: flex;
     justify-items: center;
     justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px; }
-    footer .redes img {
-      margin-right: 20px; }
+    margin-top: 40px;
+  }
+  footer .redes img {
+    margin-right: 20px;
+  }
   footer .derechos2 {
     text-align: center;
-    margin-top: 20px; } }
+    margin-top: 20px;
+  }
+}
 
 @media screen and (min-width: 768px) {
   footer .footer .derechos2 {
-    display: none; } }
+    display: none;
+  }
+}
 
 body {
-  background-color: #000; }
+  background-color: #000;
+}
